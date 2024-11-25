@@ -1,0 +1,71 @@
+footer {
+	padding-bottom: 150px !important;
+}
+
+.cta {
+	background: rgba(39, 174, 116, 0.9) url(https://thermenwartung-or-at.installateur-kaiser.at/wp-content/uploads/sites/8/2017/08/header-thermen-wartung.jpg) no-repeat left top;
+	background-size: contain;
+	color: #fff;
+	z-index: 999;
+	margin: 1em auto;
+	text-align: center;
+	position: fixed;
+	padding: 1em 2em 1em 170px;
+	left: 5%;
+	bottom: 10px;
+	width: 90%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.19)
+}
+.cta a {
+	color: #fff;
+	text-decoration: underline;
+	border-bottom: 0 none;
+}
+.cta a:hover {
+	color: #fff;
+}
+@media screen and (max-width: 425px) {
+	.cta .caption,
+	.cta .impetus,
+	.cta .per,
+	.cta .telefonisch {
+		display: none;
+	}
+	.cta {
+		padding: 1em 1em 1em 90px;
+		background-size: contain;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 650px) {
+	.cta .impetus,
+	.cta .titel,
+	.cta .per,
+	.cta .telefonisch {
+		display: none;
+	}
+	.cta {
+		padding: 1em 1em 1em 90px;
+		background-size: contain;
+	}
+}
+/*
+	@media screen and (min-width: 849px) {
+	.dickbar {
+		background: rgba(39, 174, 116, 0.9);
+		margin: 1em auto;
+	}
+	.cta {
+		padding: 1em 2em;
+	}
+}
+
+@media screen and (min-width: 1480px) {
+*/
+@media screen and (min-width: 849px) {
+	.cta {
+		left: calc( ( 100% - 849px ) / 2 );
+		max-width: 849px;
+		width: 100%;
+	}
+}
